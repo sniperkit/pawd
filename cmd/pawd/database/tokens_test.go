@@ -1,6 +1,13 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package database
 
-import "testing"
+import (
+	"testing"
+)
 
 func TestTokensStorm(t *testing.T) {
 	ctx, tdb := newTestingDB(t)

@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package main
 
 import (
@@ -5,12 +10,13 @@ import (
 	"net"
 
 	"github.com/Xe/ln"
-	"github.com/Xe/pawd/cmd/pawd/database"
-	pawd "github.com/Xe/pawd/proto"
 	"github.com/asdine/storm"
 	"github.com/caarlos0/env"
 	_ "github.com/joho/godotenv/autoload"
 	"google.golang.org/grpc"
+
+	"github.com/sniperkit/snk.fork.xe-pawd/cmd/pawd/database"
+	pawd "github.com/sniperkit/snk.fork.xe-pawd/proto"
 )
 
 type Config struct {

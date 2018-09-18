@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package main
 
 import (
@@ -5,7 +10,8 @@ import (
 	"errors"
 
 	"github.com/Xe/ln"
-	pawd "github.com/Xe/pawd/proto"
+
+	pawd "github.com/sniperkit/snk.fork.xe-pawd/proto"
 )
 
 // Auth is the implementation of the grpc service pawd.Auth.

@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Package apitoken is a little shim for making per-RPC credentials work easier.
 package apitoken
 
